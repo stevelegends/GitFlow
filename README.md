@@ -7,7 +7,7 @@ GitFlow
 
 2. Add your changes: `git add {{file}}` (e.g., `git add README.md`)
 
-3. Commit your changes with a descriptive message: `git commit -m ‘{{issue id}} - {{feature}}’` (e.g., `git commit -m ‘#1 - Update README file’`)
+3. Commit your changes with a descriptive message: `git commit -m "{{issue id}} - {{feature}}"` (e.g., `git commit -m "#1 - Update README file"`)
 
 4. Push your changes to the remote repository and set the upstream branch: `git push --set-upstream origin feature/{{issue id}}-{{feature’s name}}` (e.g., `git push --set-upstream origin feature/1-update-readme`)
 
