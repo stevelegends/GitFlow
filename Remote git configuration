@@ -1,0 +1,9 @@
+[remote "origin"]
+        url = https://token-TODO@github.com/company-TODO/repo-TODO.git
+        fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "master"]
+        remote = origin
+        merge = refs/heads/master
+[user]
+        name = Steve
+        email = steve@gmail.com
